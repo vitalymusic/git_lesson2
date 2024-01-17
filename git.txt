@@ -16,6 +16,7 @@ git config --list --show-origin - Parāda saglabātus lietotāja datus
 5. Lai redzētu visus fiksējumus: git log
 6. Lai atceltu darbību mēs izmantojam: git checkout [id]
 id jākopē no git log ekrāna
+7. 
 
 ********
 GITHUB reģisttrācija:
