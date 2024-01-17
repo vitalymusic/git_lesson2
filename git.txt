@@ -11,7 +11,7 @@ git config --list --show-origin - Parāda saglabātus lietotāja datus
 2. Pievienot visus esošos projekta failus pie git: git add -A
 3. Lai redzēt git statusu: git status
 4. Fiksēt izmaiņas projektam: git commit -a -m "projekts";
-5. Lai redzētu visus fiksētjumus: git log
+5. Lai redzētu visus fiksējumus: git log
 4. Fiksēt izmaiņas projektam: git commit -a -m "Apraksts";
 5. Lai redzētu visus fiksējumus: git log
 6. Lai atceltu darbību mēs izmantojam: git checkout [id]
