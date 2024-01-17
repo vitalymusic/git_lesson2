@@ -1,0 +1,28 @@
+GIT pamācība
+Pirms sākt lietot git ir jāsaglabā sakotnējie dati par sevi:
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git config --list --show-origin - Parāda saglabātus lietotāja datus
+
+
+
+1. Inicializēt git projektam: git init
+2. Pievienot visus esošos projekta failus pie git: git add -A
+3. Lai redzēt git statusu: git status
+4. Fiksēt izmaiņas projektam: git commit -a -m "projekts";
+5. Lai redzētu visus fiksētjumus: git log
+4. Fiksēt izmaiņas projektam: git commit -a -m "Apraksts";
+5. Lai redzētu visus fiksējumus: git log
+6. Lai atceltu darbību mēs izmantojam: git checkout [id]
+id jākopē no git log ekrāna
+
+********
+GITHUB reģisttrācija:
+1. Jāizveido konts ar tādu pašu epastu ko esiet registrējuši globālajos git iestatījumos
+Jāizveido GIT repozitorijs vietnē GITHUB
+Jāsavieno pie lokālā git remote add 
+********
+
+Ja nesanāk aktualizēt GIT repozitoriju tad ielikt šo iestatījumu: 
+git config pull.rebase true
