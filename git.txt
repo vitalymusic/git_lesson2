@@ -17,7 +17,7 @@ git config --list --show-origin - Parāda saglabātus lietotāja datus
 6. Lai atceltu darbību mēs izmantojam: git checkout [id]
 id jākopē no git log ekrāna
 7. Izmaiņu pievienpšana no cita zara (git merge [zara nosaukums])
-
+8. branch -M master main
 ********
 GITHUB reģisttrācija:
 1. Jāizveido konts ar tādu pašu epastu ko esiet registrējuši globālajos git iestatījumos
